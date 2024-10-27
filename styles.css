@@ -131,6 +131,20 @@ p {
   font-weight: 600;
 }
 
+.experience-block {
+  background-color: #f8f9fa; /* Couleur de fond légère */
+  border: 1px solid #dee2e6; /* Bordure autour de chaque bloc */
+  border-radius: 5px; /* Coins arrondis */
+  margin: 20px 0; /* Marge supérieure et inférieure */
+  padding: 15px; /* Padding à l'intérieur du bloc */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transition douce pour l'effet hover */
+}
+
+.experience-block:hover {
+  transform: scale(1.02); /* Agrandissement au survol */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Ombre portée pour effet de profondeur */
+}
+
 /* Experience End*/
 
 /* Modal Start */
