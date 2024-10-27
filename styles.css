@@ -227,4 +227,20 @@ h6 {
   height: 25rem;
   width: 25rem;
 }
+
+.photo-container {
+    width: 150px; /* Ajuste la taille si nécessaire */
+    height: 150px; /* Ajuste la taille si nécessaire */
+    overflow: hidden; /* Cache les débordements */
+    border-radius: 50%; /* Rendre le cadre rond */
+    display: flex; /* Centrer l'image */
+    justify-content: center; /* Centre l'image horizontalement */
+    align-items: center; /* Centre l'image verticalement */
+    background-color: #f8f9fa; /* Optionnel : couleur de fond */
+}
+
+.profile-photo {
+    width: 100%; /* Prend toute la largeur du conteneur */
+    height: auto; /* Conserve les proportions de l'image */
+}
 /* Me End */
