@@ -225,8 +225,8 @@ h6 {
 }
 
 .photo-container {
-  width: 150px; /* Ajuste la taille si nécessaire */
-  height: 150px; /* Ajuste la taille si nécessaire */
+  width: 200px; /* Ajuste la taille si nécessaire */
+  height: 200px; /* Ajuste la taille si nécessaire */
   overflow: hidden; /* Cache les débordements */
   border-radius: 50%; /* Rendre le cadre rond */
   display: flex; /* Centrer l'image */
